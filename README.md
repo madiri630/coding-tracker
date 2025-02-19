@@ -21,8 +21,3 @@ Just open `index.html` in your browser. No setup required! ✅
 
 🔗 **Live Demo:** [View Here](https://madiri630.github.io/coding-tracker/)  
 
-### **Homepage View**  
-![Homepage](C:\Users\madir\OneDrive\Pictures\Proj Images)  
-
-### **Add a New Problem**  
-![Add Problem](C:\Users\madir\OneDrive\Pictures\Proj Images)  
