@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Challenge Tracker</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Coding Challenge Tracker</h1>
+        <div class="input-section">
+            <input type="text" id="problemTitle" placeholder="Problem Title">
+            <select id="platform">
+                <option value="LeetCode">LeetCode</option>
+                <option value="GeeksforGeeks">GeeksforGeeks</option>
+                <option value="CodeChef">CodeChef</option>
+                <option value="Coding Ninjas">Coding Ninjas</option>
+            </select>
+            <select id="status">
+                <option value="Not Attempted">Not Attempted</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Solved">Solved</option>
+            </select>
+            <button onclick="addProblem()">➕ Add</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Platform</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="problemList"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

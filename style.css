@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: #61dafb;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+button.edit {
+    background: #ffc107;
+}
+
+button.delete {
+    background: #dc3545;
+}
